@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a4fcfa3-4bcc-4ab1-a4ea-d907fe0815d9" name="Changes" comment="initial commit setup gitignore">
-      <change afterPath="$PROJECT_DIR$/Data/memberList.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/ActivityStatusComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/AgeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/FileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/NameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/SurnameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/UserInterface.java" afterDir="false" />
+    <list default="true" id="0a4fcfa3-4bcc-4ab1-a4ea-d907fe0815d9" name="Changes" comment="all crud functions working">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MemberSystem/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/UserInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -45,7 +38,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
@@ -65,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668388059178</updated>
-      <workItem from="1668388060454" duration="344000" />
+      <workItem from="1668388060454" duration="2446000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit setup gitignore">
       <created>1668388095983</created>
@@ -74,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668388095983</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="all crud functions working">
+      <created>1668388573563</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668388573563</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit setup gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit setup gitignore" />
+    <MESSAGE value="all crud functions working" />
+    <option name="LAST_COMMIT_MESSAGE" value="all crud functions working" />
   </component>
 </project>

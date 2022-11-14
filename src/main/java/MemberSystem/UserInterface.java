@@ -12,11 +12,13 @@ public class UserInterface {
     public void loadUI() {
         loadDB();
         boolean isRunning = true;
+        System.out.print(Color.YELLOW_BOLD);
         System.out.print("""
                 -----------------------------
                 ** MEMBER HANDLING SYSTEM **
                 -----------------------------
                 """);
+        System.out.print(Color.RESET);
         showMenu();
         help();
         while (isRunning) {
@@ -52,6 +54,7 @@ public class UserInterface {
     }
 
     public void showMenu() {
+        System.out.print(Color.GREEN_BOLD);
         System.out.println("""
                 1. Add member
                 2. Edit member
@@ -60,14 +63,19 @@ public class UserInterface {
                 5. Search members
                 9. Exit and save
                 """);
+        System.out.print(Color.RESET);
     }
 
     public void command() {
+        System.out.print(Color.CYAN_BOLD);
         System.out.print("Enter command -> ");
+        System.out.print(Color.RESET);
     }
 
     public void help() {
+        System.out.print(Color.MAGENTA_BOLD);
         System.out.println("Enter 0 in the command line to see the menu options again." + "\n");
+        System.out.print(Color.RESET);
     }
 
     public int readInt() {
@@ -309,6 +317,8 @@ public class UserInterface {
 
     public void loadDB() {
         controller.loadDB();
+        System.out.print(Color.RED);
         System.out.println("Database with members has been loaded.");
+        System.out.print(Color.RESET);
     }
 }
