@@ -15,7 +15,7 @@ public class UserInterface {
         System.out.print(Color.YELLOW_BOLD);
         System.out.print("""
                 -----------------------------
-                ** MEMBER HANDLING SYSTEM **
+                🌐 MEMBER HANDLING SYSTEM 🌐
                 -----------------------------
                 """);
         System.out.print(Color.RESET);
@@ -89,7 +89,7 @@ public class UserInterface {
             } catch (InputMismatchException e) {
                 sc.next();
                 checkInput = true;
-                System.out.println("Invalid numeric input. Try again");
+                System.out.println("⛔ Invalid numeric input. Try again");
             }
         } while (checkInput == true);
         return readInt;
@@ -114,7 +114,7 @@ public class UserInterface {
 
         controller.addMember(name, surname, age, activityStatus);
 
-        System.out.println("Member added to DB.");
+        System.out.println("✅ Member added to DB.");
     }
 
     public void deleteMember() {
@@ -125,9 +125,9 @@ public class UserInterface {
             System.out.println("Enter the ID you wish to delete: ");
             int number = readInt();
             controller.deleteMember(number);
-            System.out.println("Member with ID: " + number + " was deleted.");
+            System.out.println("✅ Member with ID: " + number + " was deleted.");
         } catch (InputMismatchException e) {
-            System.out.println("Unable to delete the requested member. Try again");
+            System.out.println("⛔ Unable to delete the requested member. Try again");
         }
     }
 
@@ -165,10 +165,10 @@ public class UserInterface {
             String newActivityStatus = sc.nextLine();
             if (!newActivityStatus.isEmpty()) editMember.setActivityStatus(Boolean.parseBoolean(newActivityStatus));
 
-            System.out.println("Your edit has been stored.");
+            System.out.println("✅ Your edit has been stored.");
 
         } catch (InputMismatchException e) {
-            System.out.println("Unable to edit the requested member. Try again");
+            System.out.println("⛔ Unable to edit the requested member. Try again");
         }
     }
 
@@ -191,7 +191,7 @@ public class UserInterface {
                 switch (readInt()) {
                     case 1 -> sortByOneCriteria();
                     case 2 -> sortByTwoCriteria();
-                    default -> System.out.println("Invalid input. Try again");
+                    default -> System.out.println("⛔ Invalid input. Try again");
                 }
         }
     }
@@ -202,7 +202,7 @@ public class UserInterface {
                 1. Name
                 2. Surname
                 3. Age
-                4. Activity Stus
+                4. Activity Status
                 """);
         command();
 
@@ -224,7 +224,7 @@ public class UserInterface {
                 printMembers();
                 break;
             default:
-                System.out.println("Invalid input. Try again");
+                System.out.println("⛔ Invalid input. Try again");
                 break;
         }
     }
@@ -298,27 +298,27 @@ public class UserInterface {
         boolean found = false;
         for (Member m : controller.getMemberDB()) {
             if (m.getName().equals(searchCriteria)) {
-                System.out.println("Member found -> " + m);
+                System.out.println("✅ Member found -> " + m);
                 found = true;
             }
             if (m.getSurname().equals(searchCriteria)) {
-                System.out.println("Member found -> " + m);
+                System.out.println("✅ Member found -> " + m);
                 found = true;
             }
         }
-        if (!found) System.out.println("No member with the search criteria: " + searchCriteria + " was found.");
+        if (!found) System.out.println("⛔ No member with the search criteria: " + searchCriteria + " was found.");
     }
 
     public void saveToDB() {
         controller.saveToDB();
-        System.out.println(controller.db.getMemberDB().size() + " members have been saved to the database.");
-        System.out.println("Member system has been terminated.");
+        System.out.println("✅ " + controller.db.getMemberDB().size() + " members have been saved to the database.");
+        System.out.println("✅ Member system has been terminated.");
     }
 
     public void loadDB() {
         controller.loadDB();
         System.out.print(Color.RED);
-        System.out.println("Database with members has been loaded.");
+        System.out.println("✅ Database with members has been loaded.");
         System.out.print(Color.RESET);
     }
 }

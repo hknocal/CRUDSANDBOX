@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a4fcfa3-4bcc-4ab1-a4ea-d907fe0815d9" name="Changes" comment="added color codes">
-      <change beforePath="$PROJECT_DIR$/src/main/java/MemberSystem/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/UserInterface.java" afterDir="false" />
+    <list default="true" id="0a4fcfa3-4bcc-4ab1-a4ea-d907fe0815d9" name="Changes" comment="minor ui tweaks">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +32,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="MemberSystem.Main" />
@@ -57,7 +60,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668388059178</updated>
-      <workItem from="1668388060454" duration="2818000" />
+      <workItem from="1668388060454" duration="3814000" />
+      <workItem from="1668431523466" duration="467000" />
+      <workItem from="1668432207749" duration="16000" />
+      <workItem from="1668432616010" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit setup gitignore">
       <created>1668388095983</created>
@@ -80,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668391283581</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="color adjustments">
+      <created>1668391622454</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668391622454</updated>
+    </task>
+    <task id="LOCAL-00005" summary="minor ui tweaks">
+      <created>1668392484788</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668392484788</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +121,8 @@
     <MESSAGE value="initial commit setup gitignore" />
     <MESSAGE value="all crud functions working" />
     <MESSAGE value="added color codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added color codes" />
+    <MESSAGE value="color adjustments" />
+    <MESSAGE value="minor ui tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor ui tweaks" />
   </component>
 </project>
