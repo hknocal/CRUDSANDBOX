@@ -54,7 +54,7 @@ public class UserInterface {
     }
 
     public void showMenu() {
-        System.out.print(Color.GREEN_BOLD);
+        System.out.print(Color.CYAN_BOLD);
         System.out.println("""
                 1. Add member
                 2. Edit member
@@ -67,7 +67,7 @@ public class UserInterface {
     }
 
     public void command() {
-        System.out.print(Color.CYAN_BOLD);
+        System.out.print(Color.GREEN_BOLD);
         System.out.print("Enter command -> ");
         System.out.print(Color.RESET);
     }

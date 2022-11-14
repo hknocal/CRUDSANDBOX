@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a4fcfa3-4bcc-4ab1-a4ea-d907fe0815d9" name="Changes" comment="all crud functions working">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0a4fcfa3-4bcc-4ab1-a4ea-d907fe0815d9" name="Changes" comment="added color codes">
       <change beforePath="$PROJECT_DIR$/src/main/java/MemberSystem/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/UserInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668388059178</updated>
-      <workItem from="1668388060454" duration="2446000" />
+      <workItem from="1668388060454" duration="2818000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit setup gitignore">
       <created>1668388095983</created>
@@ -75,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668388573563</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added color codes">
+      <created>1668391283581</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668391283581</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +100,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit setup gitignore" />
     <MESSAGE value="all crud functions working" />
-    <option name="LAST_COMMIT_MESSAGE" value="all crud functions working" />
+    <MESSAGE value="added color codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added color codes" />
   </component>
 </project>
