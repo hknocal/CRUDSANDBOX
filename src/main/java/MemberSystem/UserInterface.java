@@ -47,7 +47,7 @@ public class UserInterface {
                     isRunning = false;
                     break;
                 default:
-                    System.out.println("Invalid input. Try again");
+                    System.out.println("⛔ Invalid input. Try again");
                     break;
             }
         }
@@ -96,6 +96,7 @@ public class UserInterface {
     }
 
     public void addMember() {
+        System.out.println("🟢 Adding member ");
         System.out.println("Enter name: ");
         String name = sc.next();
 
@@ -122,6 +123,7 @@ public class UserInterface {
             for (int i = 0; i < controller.getMemberDB().size(); i++) {
                 System.out.println("[ID: " + i + "] " + controller.getMemberDB().get(i));
             }
+            System.out.println("🔴 Removing member");
             System.out.println("Enter the ID you wish to delete: ");
             int number = readInt();
             controller.deleteMember(number);
@@ -136,12 +138,12 @@ public class UserInterface {
             for (int i = 0; i < controller.getMemberDB().size(); i++) {
                 System.out.println("[" + i + "] " + controller.getMemberDB().get(i));
             }
-            System.out.println("Enter the ID you wish to edit: ");
+            System.out.print("🟡 Enter the ID you wish to edit: ");
             int number = readInt();
             sc.nextLine();
 
-            Member editMember = controller.db.getMemberDB().get(number);
-            System.out.println("Editing: " + editMember.getName() + " " + editMember.getSurname());
+            Member editMember = controller.getMemberDB().get(number);
+            System.out.println("🟡 Editing: " + editMember.getName() + " " + editMember.getSurname());
             System.out.println("Enter your changes and press ENTER. If you wish to skip, leave the field blank and press ENTER");
 
 
@@ -311,7 +313,7 @@ public class UserInterface {
 
     public void saveToDB() {
         controller.saveToDB();
-        System.out.println("✅ " + controller.db.getMemberDB().size() + " members have been saved to the database.");
+        System.out.println("✅ " + controller.getMemberDB().size() + " members have been saved to the database.");
         System.out.println("✅ Member system has been terminated.");
     }
 

@@ -3,8 +3,8 @@ package MemberSystem;
 import java.util.ArrayList;
 
 public class Controller {
-    Database db = new Database ();
-    FileHandler fh = new FileHandler();
+    private Database db = new Database ();
+    private FileHandler fh = new FileHandler();
 
     public void addMember (String name, String surname, int age, boolean activityStatus) {
         db.addMember(name, surname, age, activityStatus);
