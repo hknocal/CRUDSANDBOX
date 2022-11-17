@@ -128,7 +128,7 @@ public class UserInterface {
             int number = readInt();
             controller.deleteMember(number);
             System.out.println("✅ Member with ID: " + number + " was deleted.");
-        } catch (InputMismatchException e) {
+        } catch (Exception e) {
             System.out.println("⛔ Unable to delete the requested member. Try again");
         }
     }

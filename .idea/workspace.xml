@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a4fcfa3-4bcc-4ab1-a4ea-d907fe0815d9" name="Changes" comment="minor ui tweaks">
+    <list default="true" id="0a4fcfa3-4bcc-4ab1-a4ea-d907fe0815d9" name="Changes" comment="made db and filehandler private in controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/memberList.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/memberList.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MemberSystem/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MemberSystem/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MemberSystem/UserInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,9 @@
       <workItem from="1668432616010" duration="2061000" />
       <workItem from="1668450654552" duration="675000" />
       <workItem from="1668458925890" duration="2356000" />
-      <workItem from="1668515254808" duration="881000" />
+      <workItem from="1668515254808" duration="2100000" />
+      <workItem from="1668529744654" duration="1442000" />
+      <workItem from="1668674263587" duration="2626000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit setup gitignore">
       <created>1668388095983</created>
@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668433029646</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="made db and filehandler private in controller">
+      <created>1668516336195</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668516336195</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +143,7 @@
     <MESSAGE value="added color codes" />
     <MESSAGE value="color adjustments" />
     <MESSAGE value="minor ui tweaks" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor ui tweaks" />
+    <MESSAGE value="made db and filehandler private in controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="made db and filehandler private in controller" />
   </component>
 </project>
